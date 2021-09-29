@@ -30,5 +30,8 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
         //setContentView(R.layout.activity_main)
+
+        val btnRoll = binding.btnRoll
+        btnRoll.text = "Let's Roll"
     }
 }
