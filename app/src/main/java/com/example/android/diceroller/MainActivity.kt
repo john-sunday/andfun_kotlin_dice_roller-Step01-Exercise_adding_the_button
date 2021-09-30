@@ -34,8 +34,5 @@ class MainActivity : AppCompatActivity() {
 
         val btnRoll = binding.btnRoll
         btnRoll.text = "Let's Roll"
-        btnRoll.setOnClickListener {
-            Toast.makeText(this,"Button Clicked !!!",Toast.LENGTH_LONG).show()
-        }
     }
 }
