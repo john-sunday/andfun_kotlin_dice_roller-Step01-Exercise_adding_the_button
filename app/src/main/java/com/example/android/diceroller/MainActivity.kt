@@ -17,6 +17,7 @@
 package com.example.android.diceroller
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.android.diceroller.databinding.ActivityMainBinding
 
@@ -33,5 +34,8 @@ class MainActivity : AppCompatActivity() {
 
         val btnRoll = binding.btnRoll
         btnRoll.text = "Let's Roll"
+        btnRoll.setOnClickListener {
+            Toast.makeText(this,"Button Clicked !!!",Toast.LENGTH_LONG).show()
+        }
     }
 }
